@@ -27,5 +27,80 @@ kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
 $ git branch
 * main
  -->
+
+ <!-- 
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git commit -am " added dot"
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[main e58de9b]  added dot
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kaveri-Borude/project2.git
+   a638fc6..e58de9b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git push
+Everything up-to-date
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git commit -am "added data"
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[main c199f16] added data
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Kaveri-Borude/project2.git
+   e58de9b..c199f16  main -> main
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$  -->
+
+<!--  _____________________ to createnew branch ____________________ -->
+  <!-- 
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git branch
+* main
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git checkout -b feature
+Switched to a new branch 'feature'
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (feature)
+$ git branch
+* feature
+  main
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (feature)
+$ git checkout main
+M       index.html
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+kaver@Kaveri MINGW64 /c/Kaveri/Apna College/gitDemo/project2 (main)
+$ git branch
+  feature
+* main -->
 </body>
 </html>
